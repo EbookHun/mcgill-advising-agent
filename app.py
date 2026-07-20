@@ -151,7 +151,7 @@ def run_advising_agent(user_request: str, profile_override: Optional[dict] = Non
 
 # 5. TEST SUITE / EVALUATION LOOP
 if __name__ == "__main__":
-    print("🚀 Starting Advising Agent Evaluation Suite...\n" + "="*50)
+    print("Starting Advising Agent Evaluation Suite...\n" + "="*50)
     
     eval_cases = [
         {"id": "EVAL_01 (Happy Path)", "request": "Can I take MGSC 613 and BUSA 650?", "profile": None},
@@ -162,7 +162,7 @@ if __name__ == "__main__":
     ]
     
     for case in eval_cases:
-        print(f"\n📌 Running {case['id']}\nUser Input: '{case['request']}'")
+        print(f"\n Running {case['id']}\nUser Input: '{case['request']}'")
         res = run_advising_agent(case['request'], case['profile'])
         print(f"Outputs JSON:\n{res.model_dump_json(indent=2)}")
         print("-" * 50)
