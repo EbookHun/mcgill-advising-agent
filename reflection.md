@@ -1,4 +1,3 @@
-```markdown
 # McGill Advising Agent: Simplified Reflection
 
 ## 1. What Failed at First (The "Eager Advisor" Flaw)
