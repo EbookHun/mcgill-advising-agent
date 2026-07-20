@@ -1,7 +1,7 @@
-🚀 Starting Advising Agent Evaluation Suite...
+Starting Advising Agent Evaluation Suite...
 ==================================================
 
-📌 Running EVAL_01 (Happy Path)
+Running EVAL_01 (Happy Path)
 User Input: 'Can I take MGSC 613 and BUSA 650?'
 Traceback (most recent call last):
   File "C:\Users\ibuku\mcgill_advisor_system\app.py", line 166, in <module>
